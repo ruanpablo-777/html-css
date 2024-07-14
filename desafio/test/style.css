@@ -1,0 +1,143 @@
+*{
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: "IDroid";
+    src: url("IDroid.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cordedestaque: #48DE8A;
+    --cordoheader: #1A6038;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #84E1AD;
+
+   
+    
+    
+}
+header {
+    background-image: linear-gradient( var(--cordedestaque), #1A6038);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+
+    & h1, p {
+        margin: 0;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+   
+
+    & ul {
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        list-style: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+
+        li{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            padding: 0px 10px 0px 10px;
+        }
+        
+        & li:hover{
+            background-color: #84E1AD;
+            border-radius: 10px;
+            
+        }
+    }
+}
+
+section {
+    & h1 {
+        margin: 0;
+        padding: 10px;
+    }
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 850px;
+    background-color: #ffffff;
+    margin: auto;
+
+    & img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    
+    h1, h2 {
+    font-family: "IDroid";
+    color: #217946;
+    }
+    & p {
+        font-family: sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: justify;
+        text-indent: 80px;
+        font-size: 19px;
+    }
+    
+    div.video{
+        padding: 20px;
+        margin: auto;
+        background-color: #1A6038;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.aprender-mais{
+        h3 {
+            background-color: #2FA866;
+            color: white;
+            height: 44px;
+            border-radius: 10px 10px 0px 0px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        div.topics{
+            background-color: #C5EBD6;
+            padding: 10px;
+            div.lists{
+                display: flex;
+                flex-wrap: wrap;
+                
+                ul {
+                    list-style: none;
+                }
+            }   
+        }
+    }
+}
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #1A6038;
+    text-align: center;
+
+    p{
+        margin: 0;
+    }
+}
+
+
+ /* FONTES */
+
+ 
